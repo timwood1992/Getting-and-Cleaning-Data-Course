@@ -105,15 +105,15 @@ Replace the activity numbers in mean_and_std_data_frame with the activity name
 
 Establish the character patterns we want to replace and specify the replacement characters.  The list of character patterns to replace was obtained by visually looking at the names of the variables and determining patterns that are common among several variables.  The list is as follows:
 
-Pattern               Replacement
-^t                      TimeDomain
-^f                      FrequencyDomain
-std                     StdDev
-mean                    Mean
-Mag                     Magnitude
-BodyBody                Body
-()                      ""
--                       ""
+    Pattern               Replacement
+    ^t                      TimeDomain
+    ^f                      FrequencyDomain
+    std                     StdDev
+    mean                    Mean
+    Mag                     Magnitude
+    BodyBody                Body
+    ()                      ""
+    -                       ""
 
 Replaces the character patterns in mean_and_std_data_frame with the revised characters in order to have descriptive variable names.  For the revised list of variable names, please see the “List of Modifications to the Variable Names” section below.
 
@@ -129,75 +129,75 @@ Program_Assignment_Summary_Data.csv
 
 ## List of Modifications to the Variable Names
 
-Original Name                     Descriptive Variable Name
-Subject                             Subjet
-Activity                            Activity
-tBodyAcc-mean()-X                   TimeBodyAccMeanX
-tBodyAcc-mean()-Y                   TimeBodyAccMeanY
-tBodyAcc-mean()-Z                   TimeBodyAccMeanZ
-tBodyAcc-std()-X                    TimeBodyAccStdDevX
-tBodyAcc-std()-Y                    TimeBodyAccStdDevY
-tBodyAcc-std()-Z                    TimeBodyAccStdDevZ
-tGravityAcc-mean()-X                TimeGravityAccMeanX
-tGravityAcc-mean()-Y                TimeGravityAccMeanY
-tGravityAcc-mean()-Z                TimeGravityAccMeanZ
-tGravityAcc-std()-X                 TimeGravityAccStdDevX
-tGravityAcc-std()-Y                 TimeGravityAccStdDevY
-tGravityAcc-std()-Z                 TimeGravityAccStdDevZ
-tBodyAccJerk-mean()-X               TimeBodyAccJerkMeanX
-tBodyAccJerk-mean()-Y               TimeBodyAccJerkMeanY
-tBodyAccJerk-mean()-Z               TimeBodyAccJerkMeanZ
-tBodyAccJerk-std()-X                TimeBodyAccJerkStdDevX
-tBodyAccJerk-std()-Y                TimeBodyAccJerkStdDevY
-tBodyAccJerk-std()-Z                TimeBodyAccJerkStdDevZ
-tBodyGyro-mean()-X                  TimeBodyGyroMeanX
-tBodyGyro-mean()-Y                  TimeBodyGyroMeanY
-tBodyGyro-mean()-Z                  TimeBodyGyroMeanZ
-tBodyGyro-std()-X                   TimeBodyGyroStdDevX
-tBodyGyro-std()-Y                   TimeBodyGyroStdDevY
-tBodyGyro-std()-Z                   TimeBodyGyroStdDevZ
-tBodyGyroJerk-mean()-X              TimeBodyGyroJerkMeanX
-tBodyGyroJerk-mean()-Y              TimeBodyGyroJerkMeanY
-tBodyGyroJerk-mean()-Z              TimeBodyGyroJerkMeanZ
-tBodyGyroJerk-std()-X               TimeBodyGyroJerkStdDevX
-tBodyGyroJerk-std()-Y               TimeBodyGyroJerkStdDevY
-tBodyGyroJerk-std()-Z               TimeBodyGyroJerkStdDevZ
-tBodyAccMag-mean()                  TimeBodyAccMagnitudeMean
-tBodyAccMag-std()                   TimeBodyAccMagnitudeStdDev
-tGravityAccMag-mean()               TimeGravityAccMagnitudeMean
-tGravityAccMag-std()                TimeGravityAccMagnitudeStdDev
-tBodyAccJerkMag-mean()              TimeBodyAccJerkMagnitudeMean
-tBodyAccJerkMag-std()               TimeBodyAccJerkMagnitudeStdDev
-tBodyGyroMag-mean()                 TimeBodyGyroMagnitudeMean
-tBodyGyroMag-std()                  TimeBodyGyroMagnitudeStdDev
-tBodyGyroJerkMag-mean()             TimeBodyGyroJerkMagnitudeMean
-tBodyGyroJerkMag-std()              TimeBodyGyroJerkMagnitudeStdDev
-fBodyAcc-mean()-X                   FrequencyBodyAccMeanX
-fBodyAcc-mean()-Y                   FrequencyBodyAccMeanY
-fBodyAcc-mean()-Z                   FrequencyBodyAccMeanZ
-fBodyAcc-std()-X                    FrequencyBodyAccStdDevX
-fBodyAcc-std()-Y                    FrequencyBodyAccStdDevY
-fBodyAcc-std()-Z                    FrequencyBodyAccStdDevZ
-fBodyAccJerk-mean()-X               FrequencyBodyAccJerkMeanX
-fBodyAccJerk-mean()-Y               FrequencyBodyAccJerkMeanY
-fBodyAccJerk-mean()-Z               FrequencyBodyAccJerkMeanZ
-fBodyAccJerk-std()-X                FrequencyBodyAccJerkStdDevX
-fBodyAccJerk-std()-Y                FrequencyBodyAccJerkStdDevY
-fBodyAccJerk-std()-Z                FrequencyBodyAccJerkStdDevZ
-fBodyGyro-mean()-X                  FrequencyBodyGyroMeanX
-fBodyGyro-mean()-Y                  FrequencyBodyGyroMeanY
-fBodyGyro-mean()-Z                  FrequencyBodyGyroMeanZ
-fBodyGyro-std()-X                   FrequencyBodyGyroStdDevX
-fBodyGyro-std()-Y                   FrequencyBodyGyroStdDevY
-fBodyGyro-std()-Z                   FrequencyBodyGyroStdDevZ
-fBodyAccMag-mean()                  FrequencyBodyAccMagnitudeMean
-fBodyAccMag-std()                   FrequencyBodyAccMagnitudeStdDev
-fBodyBodyAccJerkMag-mean()          FrequencyBodyAccJerkMagnitudeMean
-fBodyBodyAccJerkMag-std()           FrequencyBodyAccJerkMagnitudeStdDev
-fBodyBodyGyroMag-mean()             FrequencyBodyGyroMagnitudeMean
-fBodyBodyGyroMag-std()              FrequencyBodyGyroMagnitudeStdDev
-fBodyBodyGyroJerkMag-mean()         FrequencyBodyGyroJerkMagnitudeMean
-fBodyBodyGyroJerkMag-std()          FrequencyBodyGyroJerkMagnitudeStdDev
+    Original Name                     Descriptive Variable Name
+    Subject                             Subjet
+    Activity                            Activity
+    tBodyAcc-mean()-X                   TimeBodyAccMeanX
+    tBodyAcc-mean()-Y                   TimeBodyAccMeanY
+    tBodyAcc-mean()-Z                   TimeBodyAccMeanZ
+    tBodyAcc-std()-X                    TimeBodyAccStdDevX
+    tBodyAcc-std()-Y                    TimeBodyAccStdDevY
+    tBodyAcc-std()-Z                    TimeBodyAccStdDevZ
+    tGravityAcc-mean()-X                TimeGravityAccMeanX
+    tGravityAcc-mean()-Y                TimeGravityAccMeanY
+    tGravityAcc-mean()-Z                TimeGravityAccMeanZ
+    tGravityAcc-std()-X                 TimeGravityAccStdDevX
+    tGravityAcc-std()-Y                 TimeGravityAccStdDevY
+    tGravityAcc-std()-Z                 TimeGravityAccStdDevZ
+    tBodyAccJerk-mean()-X               TimeBodyAccJerkMeanX
+    tBodyAccJerk-mean()-Y               TimeBodyAccJerkMeanY
+    tBodyAccJerk-mean()-Z               TimeBodyAccJerkMeanZ
+    tBodyAccJerk-std()-X                TimeBodyAccJerkStdDevX
+    tBodyAccJerk-std()-Y                TimeBodyAccJerkStdDevY
+    tBodyAccJerk-std()-Z                TimeBodyAccJerkStdDevZ
+    tBodyGyro-mean()-X                  TimeBodyGyroMeanX
+    tBodyGyro-mean()-Y                  TimeBodyGyroMeanY
+    tBodyGyro-mean()-Z                  TimeBodyGyroMeanZ
+    tBodyGyro-std()-X                   TimeBodyGyroStdDevX
+    tBodyGyro-std()-Y                   TimeBodyGyroStdDevY
+    tBodyGyro-std()-Z                   TimeBodyGyroStdDevZ
+    tBodyGyroJerk-mean()-X              TimeBodyGyroJerkMeanX
+    tBodyGyroJerk-mean()-Y              TimeBodyGyroJerkMeanY
+    tBodyGyroJerk-mean()-Z              TimeBodyGyroJerkMeanZ
+    tBodyGyroJerk-std()-X               TimeBodyGyroJerkStdDevX
+    tBodyGyroJerk-std()-Y               TimeBodyGyroJerkStdDevY
+    tBodyGyroJerk-std()-Z               TimeBodyGyroJerkStdDevZ
+    tBodyAccMag-mean()                  TimeBodyAccMagnitudeMean
+    tBodyAccMag-std()                   TimeBodyAccMagnitudeStdDev
+    tGravityAccMag-mean()               TimeGravityAccMagnitudeMean
+    tGravityAccMag-std()                TimeGravityAccMagnitudeStdDev
+    tBodyAccJerkMag-mean()              TimeBodyAccJerkMagnitudeMean
+    tBodyAccJerkMag-std()               TimeBodyAccJerkMagnitudeStdDev
+    tBodyGyroMag-mean()                 TimeBodyGyroMagnitudeMean
+    tBodyGyroMag-std()                  TimeBodyGyroMagnitudeStdDev
+    tBodyGyroJerkMag-mean()             TimeBodyGyroJerkMagnitudeMean
+    tBodyGyroJerkMag-std()              TimeBodyGyroJerkMagnitudeStdDev
+    fBodyAcc-mean()-X                   FrequencyBodyAccMeanX
+    fBodyAcc-mean()-Y                   FrequencyBodyAccMeanY
+    fBodyAcc-mean()-Z                   FrequencyBodyAccMeanZ
+    fBodyAcc-std()-X                    FrequencyBodyAccStdDevX
+    fBodyAcc-std()-Y                    FrequencyBodyAccStdDevY
+    fBodyAcc-std()-Z                    FrequencyBodyAccStdDevZ
+    fBodyAccJerk-mean()-X               FrequencyBodyAccJerkMeanX
+    fBodyAccJerk-mean()-Y               FrequencyBodyAccJerkMeanY
+    fBodyAccJerk-mean()-Z               FrequencyBodyAccJerkMeanZ
+    fBodyAccJerk-std()-X                FrequencyBodyAccJerkStdDevX
+    fBodyAccJerk-std()-Y                FrequencyBodyAccJerkStdDevY
+    fBodyAccJerk-std()-Z                FrequencyBodyAccJerkStdDevZ
+    fBodyGyro-mean()-X                  FrequencyBodyGyroMeanX
+    fBodyGyro-mean()-Y                  FrequencyBodyGyroMeanY
+    fBodyGyro-mean()-Z                  FrequencyBodyGyroMeanZ
+    fBodyGyro-std()-X                   FrequencyBodyGyroStdDevX
+    fBodyGyro-std()-Y                   FrequencyBodyGyroStdDevY
+    fBodyGyro-std()-Z                   FrequencyBodyGyroStdDevZ
+    fBodyAccMag-mean()                  FrequencyBodyAccMagnitudeMean
+    fBodyAccMag-std()                   FrequencyBodyAccMagnitudeStdDev
+    fBodyBodyAccJerkMag-mean()          FrequencyBodyAccJerkMagnitudeMean
+    fBodyBodyAccJerkMag-std()           FrequencyBodyAccJerkMagnitudeStdDev
+    fBodyBodyGyroMag-mean()             FrequencyBodyGyroMagnitudeMean
+    fBodyBodyGyroMag-std()              FrequencyBodyGyroMagnitudeStdDev
+    fBodyBodyGyroJerkMag-mean()         FrequencyBodyGyroJerkMagnitudeMean
+    fBodyBodyGyroJerkMag-std()          FrequencyBodyGyroJerkMagnitudeStdDev
 
 
 
