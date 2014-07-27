@@ -5,15 +5,15 @@ https://github.com/timwood1992/Getting-and-Cleaning-Data-Course.git
 
 The required files for this assignment contained within the Github repo are:
 
-run_analysis.R
-README.md
-CodeBook.md
+    run_analysis.R
+    README.md
+    CodeBook.md
 
 In addition, the following files are also included in the repo:
 
-run_analysis_with_testing_code.R
-Program_Assignment_Summary_Data.txt
-Program_Assignment_Summary_Data.csv
+    run_analysis_with_testing_code.R
+    Program_Assignment_Summary_Data.txt
+    Program_Assignment_Summary_Data.csv
 
 
 ## Data:
