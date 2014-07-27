@@ -8,12 +8,12 @@ The data for the variables are normalized and bounded within [-1,1].
 
 ### Activity Labels
     Activity Number     Activity Name
-       1	                WALKING
-       2	                WALKING_UPSTAIRS
-       3                	WALKING_DOWNSTAIRS
-       4	                SITTING
-       5	                STANDING
-       6	                LAYING
+       1	                walking
+       2	                walking upstairs
+       3                	walking downstairs
+       4	                sitting
+       5	                standing
+       6	                laying
 
 
 ### Variable Names:
