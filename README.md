@@ -1,4 +1,4 @@
-Getting and Cleaning Data Course - Program Assignment
+## Getting and Cleaning Data Course - Program Assignment
 
 This README file describes my submission for the Program Assignment for the Getting and Cleaning Data Course.  All files are located with the Githup repo:
 https://github.com/timwood1992/Getting-and-Cleaning-Data-Course.git
@@ -16,7 +16,7 @@ Program_Assignment_Summary_Data.txt
 Program_Assignment_Summary_Data.csv
 
 
-Data:
+## Data:
 The data used for this assignment represent data collected from the accelerometers from the Samsung Galaxy S smartphone. A full description is available at the site where the data was obtained: 
 
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones 
@@ -28,7 +28,7 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 To run the R script submitted for this assignment, the data folder for the assignment (titled "UCI HAR Dataset") must be unzipped and saved in your R working directory.
 
 
-Description of Measurements:
+## Description of Measurements:
 
 The description of the downloaded data can be found in the README file located in the UCI HAR Dataset folder.  An excerpt is:
 
@@ -45,7 +45,7 @@ Notes:
 - Each feature vector is a row on the text file.
 
 
-Program Assignment:
+## Program Assignment:
 
 From the downloaded data, the following assignment steps were performed.  The R script titled run_analysis.R performs these steps.
 
@@ -58,9 +58,9 @@ From the downloaded data, the following assignment steps were performed.  The R 
 The independent tidy data set produced in step 5 (titled “Program_Assignment_Summary_Data.txt”) was also submitted as part of this assignment.
 
 
-Steps Performed Within the R Script:
+## Steps Performed Within the R Script:
 
-For Step 1:
+### For Step 1:
 
 Loads in the three files from the train dataset
     x_train_data is a data frame that lists 7352 observations for 561 variables.
@@ -83,14 +83,14 @@ Combines the list of Subjects, Activity, and the feature measurement into one da
 Combines the the train data set and the test data set together to form one data frame of all data.
 
 
-For Step 2:
+### For Step 2:
 
 Creates a subset of the data which contains the mean and standard deviation measurements listed in the data frame human_activity_recognition_data.  Note that this includes only the measurements specifically labeled as mean or std (e.g. it does not include meanFreq or the angle measurements). 
 
 Adds the Subject and Activity data to the mean_and_std_data_frame
 
 
-For Step 3:
+### For Step 3:
 
 Loads the activity names from the data provided.
 
@@ -101,7 +101,7 @@ Take out the "_" characters in the labels.
 Replace the activity numbers in mean_and_std_data_frame with the activity name
 
 
-For Step 4:
+### For Step 4:
 
 Establish the character patterns we want to replace and specify the replacement characters.  The list of character patterns to replace was obtained by visually looking at the names of the variables and determining patterns that are common among several variables.  The list is as follows:
 
@@ -118,7 +118,7 @@ BodyBody                Body
 Replaces the character patterns in mean_and_std_data_frame with the revised characters in order to have descriptive variable names.  For the revised list of variable names, please see the “List of Modifications to the Variable Names” section below.
 
 
-For Step 5:
+### For Step 5:
 
 Uses the aggregate function to create a new dataframe with the average for each variable by activity and subject.
 
@@ -127,7 +127,7 @@ Program_Assignment_Summary_Data.txt
 Program_Assignment_Summary_Data.csv
 
 
-List of Modifications to the Variable Names
+## List of Modifications to the Variable Names
 
 Original Name                     Descriptive Variable Name
 Subject                             Subjet
