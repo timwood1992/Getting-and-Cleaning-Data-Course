@@ -123,8 +123,8 @@ Replaces the character patterns in mean_and_std_data_frame with the revised char
 Uses the aggregate function to create a new dataframe with the average for each variable by activity and subject.
 
 Writes the dataframe to a file in the Working Directory.  This can be viewed by a text editor or using Excel.  This script will save two files, one in txt format and the other in csv format.  The files names are:
-    Program_Assignment_Summary_Data.txt
-    Program_Assignment_Summary_Data.csv
+     Program_Assignment_Summary_Data.txt
+     Program_Assignment_Summary_Data.csv
 
 
 ## List of Modifications to the Variable Names
