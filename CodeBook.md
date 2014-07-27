@@ -31,6 +31,7 @@ The variable names are listed as the column names for the data set.  The meaning
     Standard Deviation  - The standard deviation of the associated data
 
 
+Note that I used the convention of capitalizing the first letter in each name listed above rather than having all small case for the variable names.  The rationale is that it is easier to read a concatenated name if the first letter of the component names are capitalized.
 
 Full description of the variables is as follows:
 
