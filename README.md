@@ -131,6 +131,7 @@ Writes the dataframe to a file in the Working Directory.  This can be viewed by 
 ## List of Modifications to the Variable Names
 
     Original Name                     Descriptive Variable Name
+    
     Subject                             Subjet
     Activity                            Activity
     tBodyAcc-mean()-X                   TimeBodyAccMeanX
