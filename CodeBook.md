@@ -1,9 +1,10 @@
 ## Code Book for the data set "Program_Assignment_Summary_Data"
 
 
-Please see the README file associated with this data set for more details of how the data was obtained.
+### Study Design
+Please see the README file for the course assignment (located in this repo) for information on the collection and processing of the data.  In addition, the downloaded data folder associated with this data set contains an additional README file with more details of the original data.
 
-### Units:
+### Units
 The data for the variables are normalized and bounded within [-1,1].
 
 ### Activity Labels
@@ -16,7 +17,7 @@ The data for the variables are normalized and bounded within [-1,1].
        6	                laying
 
 
-### Variable Names:
+### Variable Names
 The variable names are listed as the column names for the data set.  The meaning of the words composing the variable names is as follows:
 
     Time                - Time domain signal
