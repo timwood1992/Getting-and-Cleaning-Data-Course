@@ -6,6 +6,16 @@ Please see the README file associated with this data set for more details of how
 ### Units:
 The data for the variables are normalized and bounded within [-1,1].
 
+## Activity Labels
+    Activity Number     Activity Name
+       1	                WALKING
+       2	                WALKING_UPSTAIRS
+       3                	WALKING_DOWNSTAIRS
+       4	                SITTING
+       5	                STANDING
+       6	                LAYING
+
+
 
 ### Variable Names:
 The variable names are listed as the column names for the data set.  The meaning of the words composing the variable names is as follows:
