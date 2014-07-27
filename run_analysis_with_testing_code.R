@@ -194,7 +194,7 @@ SummaryData[170:180, 1:5]
 
 ## Write the dataframe to a file in the Working Directory.  This can be viewed by a text editor or using Excel.
 ## Note that this will create two files: a text file and a csv file.
-write.table(SummaryData, file="Program_Assignment_Summary_Data.txt", quote=FALSE,row.names=FALSE)
+write.table(SummaryData, file="Program_Assignment_Summary_Data.txt", row.names=FALSE)
 write.csv(SummaryData, file="Program_Assignment_Summary_Data.csv", row.names=FALSE)
 
 
