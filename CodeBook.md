@@ -7,6 +7,7 @@ Please see the README file associated with this data set for more details of how
 The data for the variables are normalized and bounded within [-1,1].
 
 
+### Variable Names:
 The variable names are listed as the column names for the data set.  The meaning of the words composing the variable names is as follows:
 
 Time                - Time domain signal
