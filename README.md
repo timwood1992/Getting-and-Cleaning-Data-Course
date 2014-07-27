@@ -106,15 +106,17 @@ Replace the activity numbers in mean_and_std_data_frame with the activity name
 Establish the character patterns we want to replace and specify the replacement characters.  The list of character patterns to replace was obtained by visually looking at the names of the variables and determining patterns that are common among several variables.  The list is as follows:
 
     Pattern               Replacement
-    ^t                      TimeDomain
-    ^f                      FrequencyDomain
+    ^t                      Time
+    ^f                      Frequency
     std                     StdDev
     mean                    Mean
     Mag                     Magnitude
     BodyBody                Body
     ()                      ""
     -                       ""
-
+    
+    Note:  the "^" symbol denotes the letter occurs at the beginning of the variable name.
+    
 Replaces the character patterns in mean_and_std_data_frame with the revised characters in order to have descriptive variable names.  For the revised list of variable names, please see the “List of Modifications to the Variable Names” section below.
 
 
